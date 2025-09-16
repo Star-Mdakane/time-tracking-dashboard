@@ -28,6 +28,191 @@ a {
     text-decoration: none;
 }
 
+button {
+    font: inherit;
+}
+
 body {
     font-family: "Rubik", sans-serif;
+}
+
+main {
+    background-color: var(--navy-dark);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+
+    width: 100%;
+    max-width: 90rem;
+    padding: 3rem 1rem;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 1rem;
+
+    font-size: 18px;
+}
+
+.bio-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--navy-light);
+    background-color: var(--purple-mid);
+    padding: 2rem;
+    font-weight: 300;
+
+    & p {
+        font-weight: 300;
+    }
+
+    & h2 {
+        font-weight: 300;
+    }
+}
+
+
+
+.bio-img {
+    max-width: 4rem;
+    max-height: 4rem;
+    border: 3px solid var(--navy-light);
+    border-radius: 50%;
+
+}
+
+.bio-details p {
+    font-weight: 400;
+
+}
+
+.bio-img img {
+    width: 100%;
+    block-size: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.buttons {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.5s ease-in;
+
+
+    & button {
+        appearance: none;
+        display: flex;
+        background-color: inherit;
+        border: none;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--purple-light);
+
+        &:hover {
+            color: var(--navy-light);
+        }
+    }
+}
+
+
+.item {
+    color: var(--navy-light);
+
+    & p {
+        color: var(--purple-light);
+    }
+}
+
+li {
+    overflow: hidden;
+}
+
+li.item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--orange);
+}
+
+li .img {
+    background-image: url(./images/icon-work.svg);
+    height: 2rem;
+    background-position: 90% 20%;
+    background-repeat: no-repeat;
+    background-size: 4rem;
+}
+
+
+
+li .card-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: var(--navy-light);
+    background-color: var(--navy-mid);
+
+
+    & h3 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+
+    }
+
+    & h1 {
+        font-size: 2rem;
+        font-weight: 300;
+        color: white;
+    }
+
+    & p {
+        font-size: 1rem;
+    }
+}
+
+.ellipsis-img {
+    justify-self: end;
+}
+
+.previous {
+    justify-self: end;
+}
+
+.ellipsis:hover {
+    cursor: pointer;
+}
+
+li .card-contents:hover {
+    cursor: pointer;
+    background-color: var(--purple-light);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+li:nth-of-type(2) .img {
+    /* background-color: var(--orange); */
 }

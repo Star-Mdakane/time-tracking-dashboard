@@ -35,7 +35,7 @@ The designs were created to the following widths:
 
 - Font size: 18px (card titles e.g. Work, Play)
 
-### Font
+### Font                   
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 300, 400, 500
