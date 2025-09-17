@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <script src="script.js" defer></script> -->
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -45,24 +43,28 @@
             </button>
           </div>
         </li>
-        <li class="item card">
+        <template class="item card">
           <div class="img">
           </div>
           <div class="card-contents card">
-            <h3 class="title">
-              Work
-            </h3>
-            <div class="ellipsis-img">
-              <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+            <div class="top">
+              <h3 class="title">
+                Work
+              </h3>
+              <div class="ellipsis-img">
+                <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+              </div>
             </div>
-            <h1 class="current">
-              5hrs
-            </h1>
-            <p class="previous">
-              Previous - 7hrs
-            </p>
+            <div class="bottom">
+              <h1 class="current">
+                5hrs
+              </h1>
+              <p class="previous">
+                Previous - 7hrs
+              </p>
+            </div>
           </div>
-        </li>
+        </template>
 
       </ul>
     </section>

@@ -31,20 +31,26 @@ const appendItem = (item) => {
           <div class="img">
           </div>
           <div class="card-contents card">
-            <h3 class="title">
-                ${item.title}
-            </h3>
-            <div class="ellipsis-img">
-              <img src="./images/icon-ellipsis.svg" alt="ellipsis">
-            </div>
-            <h1 class="current">
-            </h1>
-            <p class="previous">
-            </p>
+                <div class="top">
+                    <h3 class="title">
+                        ${item.title}
+                    </h3>
+                    <div class="ellipsis-img">
+                        <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="current">
+                        5hrs
+                    </h1>
+                    <p class="previous">
+                        Previous - 7hrs
+                    </p>
+                </div>
           </div>
         </li> 
     `
     container.appendChild(listItem);
-
 }
+
 

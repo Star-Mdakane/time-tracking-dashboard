@@ -51,6 +51,10 @@ The profile is a constant div which means I will create it via html.
 For the other divs I will attempt to to inject the the static elements like the image, and title.
 Next I will attempt to populate the rest using some if statements, making the timeframes buttons then controlling what is required.
 
+Problems encountered:
+Border radius of my li. Somehow I seperated the li element from its class ad were styted differently causing it to behave strange and have margins or gap at the bottom which I could not reach.
+The profile list item on span of 2 rows would stretch the list items on that row on 2 columns or more.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -58,9 +62,7 @@ Next I will attempt to populate the rest using some if statements, making the ti
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -104,8 +106,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Star-Mdakane](https://www.frontendmentor.io/profile/@Star-Mdakane)
+- Twitter - [@KidStarMadrad](https://www.twitter.com/@KidStarMadrad)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
