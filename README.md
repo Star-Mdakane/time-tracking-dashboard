@@ -30,13 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Screenshots are on the images folder
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
@@ -54,6 +48,8 @@ Next I will attempt to populate the rest using some if statements, making the ti
 Problems encountered:
 Border radius of my li. Somehow I seperated the li element from its class ad were styted differently causing it to behave strange and have margins or gap at the bottom which I could not reach.
 The profile list item on span of 2 rows would stretch the list items on that row on 2 columns or more.
+For selecting the timeframes, I tried making it self change and after a day I remembered that I forgot to use my buttons.
+After that I tried to make the value of a property dynamic which held me back days but when I tried hardcoding it I saw that it worked and I was comparing values to later realise thst it works...that's how exhausting this project was.
 
 ### Built with
 
@@ -92,27 +88,26 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Everything on JavaScript side, there more I do is the more I get an idea of how things are done.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
+None for this project.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://www.your-site.com) It should be vercel right? but it only activates when I am done submitting
 - Frontend Mentor - [@Star-Mdakane](https://www.frontendmentor.io/profile/@Star-Mdakane)
 - Twitter - [@KidStarMadrad](https://www.twitter.com/@KidStarMadrad)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I watched many videos with no avail, different ideas.
+I tried meta AI and when i thought of how I should structure my question, I landed on solutions
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

@@ -163,7 +163,6 @@ li.item {
 }
 
 li .img {
-    /* background-image: url(./images/icon-work.svg); */
     height: 2rem;
     background-position: 90% 20%;
     background-repeat: no-repeat;
@@ -186,7 +185,6 @@ li .card-contents {
         font-size: 1rem;
         font-weight: 400;
         color: white;
-
     }
 
     & h1 {
